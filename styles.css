@@ -138,17 +138,19 @@ body {
 }
 
 .image-circle:first-child {
-    width: 500px;
-    height: 500px;
-    z-index: 1;
+    width: 350px;
+    height: 350px;
+    top: 70px;
+    align-items: center;
+    z-index: 2;
 }
 
 .image-circle:last-child {
-    width: 350px;
-    height: 350px;
-    top: 120px;
-    left: 320px;
-    z-index: 2;
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left: 180px;
+    z-index: 1;
 }
 
 .image-circle img {
